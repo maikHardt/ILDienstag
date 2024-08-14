@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>     
+        #einse{
+            min-width: fit-content;
+            display: flex;
+        }  
+             
+        #rot{            
+            padding: 40px;
+            background-color: red;
+        }
+        #grün{
+            padding: 40px;
+            background-color: green;
+        }
+        #gelb{              
+            height: 80px;
+            padding-left: 80px;
+            background-color: yellow;
+        }
+        #blau{            
+            padding-top: 80px;
+            background-color: blue;
+        }
+        #türkis{
+            width: 300px;
+            padding: 40px;            
+            background-color: cyan;
+        }
+        #lila{
+            padding-top: 80px;                       
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="einse"> <!--Zentral-->
+        <div id="rot"><!-- Flex Rot--></div>
+        <div>
+            <div id="blau"><!-- Normal Blau--></div>
+            <div style="display: flex;">            
+                <div id="grün"><!-- Flex grün--></div> 
+                <div>
+                    <div id="türkis"><!-- Normal türkis--></div>  
+                    <div id="lila"><!-- Normal lila--></div>
+                </div>                     
+            </div>
+        </div>
+        <div>
+            <div id="gelb"><!-- Flex Gelb--></div>
+            <div id="gelb"><!-- Flex Gelb--></div>
+            <div id="lila"><!-- Normal lila--></div>
+        </div>
+    </div>
+</body>
+</html>
